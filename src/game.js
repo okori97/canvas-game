@@ -3,7 +3,7 @@ var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
 canvas.width = 512;
 canvas.height = 480;
-document.body.appendChild(canvas);
+document.querySelector('#viewport').appendChild(canvas);
 
 
 // Bg image 
@@ -117,7 +117,7 @@ var render = function () {
 
 	// Score
 	ctx.fillStyle = "rgb(250, 250, 250)";
-	ctx.font = "24px Helvetica";
+	ctx.font = "24px Press Start 2P";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
 	ctx.fillText("Monsters caught: " + monstersCaught, 32, 32);
