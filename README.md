@@ -2,6 +2,8 @@
 
 This is a HTML5 canvas game built using mostly JS. This was not for an assignment, soley a passion project to make my first game, however simple.
 
+![Imgur](https://i.imgur.com/ovtaXda.png)
+
 ## Built Using
 
 - Javascript
